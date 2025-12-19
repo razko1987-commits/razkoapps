@@ -1,12 +1,308 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Privacy Policy for Internal Note Helper - Your data stays in your Zendesk instance. No tracking, analytics, or third-party services." />
+  <title>Privacy Policy | Internal Note Helper for Zendesk</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #222;
+      background-color: #ffffff;
+    }
+    
+    header {
+      background-color: #ffffff;
+      border-bottom: 1px solid #e5e7eb;
+      padding: 1rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    }
+    
+    nav {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .logo {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #1a3fd3;
+      text-decoration: none;
+    }
+    
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      flex-wrap: wrap;
+    }
+    
+    .nav-links a {
+      color: #4b5563;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    
+    .nav-links a:hover {
+      color: #1a3fd3;
+    }
+    
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 3rem 2rem;
+    }
+    
+    .page-header {
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid #e5e7eb;
+    }
+    
+    .page-header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin: 0 0 0.5rem;
+      color: #111827;
+    }
+    
+    .breadcrumb {
+      color: #6b7280;
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+    
+    .breadcrumb a {
+      color: #1a3fd3;
+      text-decoration: none;
+    }
+    
+    .breadcrumb a:hover {
+      text-decoration: underline;
+    }
+    
+    .content {
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+    
+    .content h2 {
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin: 2rem 0 1rem;
+      color: #1f2937;
+    }
+    
+    .content p {
+      margin-bottom: 1.5rem;
+      color: #4b5563;
+    }
+    
+    .highlight-box {
+      background-color: #eef3ff;
+      border-left: 4px solid #1a3fd3;
+      padding: 1.5rem;
+      margin: 2rem 0;
+      border-radius: 8px;
+    }
+    
+    .highlight-box p {
+      margin: 0;
+      color: #1f2937;
+    }
+    
+    footer {
+      background-color: #111827;
+      color: #9ca3af;
+      padding: 3rem 0 2rem;
+      margin-top: 4rem;
+    }
+    
+    .footer-content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+    }
+    
+    .footer-section h3 {
+      color: #ffffff;
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    
+    .footer-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .footer-links li {
+      margin-bottom: 0.5rem;
+    }
+    
+    .footer-links a {
+      color: #9ca3af;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    
+    .footer-links a:hover {
+      color: #ffffff;
+    }
+    
+    .footer-bottom {
+      max-width: 1200px;
+      margin: 2rem auto 0;
+      padding: 2rem 2rem 0;
+      border-top: 1px solid #374151;
+      text-align: center;
+      font-size: 0.875rem;
+    }
+    
+    @media (max-width: 768px) {
+      .page-header h1 {
+        font-size: 2rem;
+      }
+      
+      .nav-links {
+        gap: 1rem;
+        font-size: 0.9rem;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+      }
+      
+      .nav-links {
+        width: 100%;
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      
+      .container {
+        padding: 2rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
 
-<h1>Privacy Policy</h1>
-<p>
-  Internal Note Helper does not collect, store, or transmit personal data
-  outside of Zendesk.
-</p>
-<p>
-  All ticket data remains within the customer’s Zendesk instance.
-</p>
-<p>
-  No tracking, analytics, or third-party services are used.
-</p>
+  <header>
+    <nav>
+      <a href="../" class="logo">Internal Note Helper</a>
+      <ul class="nav-links">
+        <li><a href="../#features">Features</a></li>
+        <li><a href="../#how-it-works">How It Works</a></li>
+        <li><a href="../#pricing">Pricing</a></li>
+        <li><a href="../#faq">FAQ</a></li>
+        <li><a href="../support/">Support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="page-header">
+      <div class="breadcrumb">
+        <a href="../">Home</a> / Privacy Policy
+      </div>
+      <h1>Privacy Policy</h1>
+    </div>
+
+    <div class="content">
+      <div class="highlight-box">
+        <p>
+          <strong>Your data stays in your Zendesk instance.</strong> Internal Note Helper does not collect, store, or transmit personal data outside of Zendesk.
+        </p>
+      </div>
+
+      <h2>Data Handling</h2>
+      <p>
+        All ticket data remains within your Zendesk instance. We do not access, store, or process any data outside of the Zendesk platform where the app is installed.
+      </p>
+
+      <h2>No Tracking or Analytics</h2>
+      <p>
+        Internal Note Helper does not use any tracking, analytics, or third-party services. We do not collect usage statistics, user behavior data, or any other information about how you use the app.
+      </p>
+
+      <h2>Data Security</h2>
+      <p>
+        Since all data processing occurs within your Zendesk instance, your existing Zendesk security measures and data protection policies apply. We do not have access to your data and cannot view, modify, or export any information from your Zendesk account.
+      </p>
+
+      <h2>Third-Party Services</h2>
+      <p>
+        Internal Note Helper does not integrate with any third-party services or external APIs. All functionality is self-contained within the Zendesk platform.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        If you have any questions about this privacy policy, please visit our <a href="../support/">support page</a>.
+      </p>
+
+      <p style="color: #6b7280; font-size: 0.95rem; margin-top: 3rem;">
+        Last updated: 2024
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>Product</h3>
+        <ul class="footer-links">
+          <li><a href="../#features">Features</a></li>
+          <li><a href="../#how-it-works">How It Works</a></li>
+          <li><a href="../#pricing">Pricing</a></li>
+          <li><a href="../#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Resources</h3>
+        <ul class="footer-links">
+          <li><a href="../support/">Support</a></li>
+          <li><a href="https://github.com/razko1987-commits/zendesk-update-assistant-site/issues" target="_blank" rel="noopener noreferrer">GitHub Issues</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Legal</h3>
+        <ul class="footer-links">
+          <li><a href="./">Privacy Policy</a></li>
+          <li><a href="../terms/">Terms & Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Internal Note Helper. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
